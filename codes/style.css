@@ -1,0 +1,35 @@
+body{
+    margin: 40px auto;
+    background-color: rgb(114, 114, 114);
+    color: #fff;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font: normal 30pt arial;
+}
+.caixa img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.caixa{
+    border-radius: 8px;
+    margin: 20px 85px 35px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -8px 8px rgba(0, 0, 0, 0.521);
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(151, 151, 151));
+    cursor: pointer;
+}
+section{
+    margin: 30px;
+    padding: 15px;
+    height: 404px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(9, 255, 0), rgb(119, 0, 255));
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.521);
+}
+#row1, #row2{
+    display: flex;
+}
